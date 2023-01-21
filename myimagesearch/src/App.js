@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <div> <SearchBar onSubmit ={handleSubmit}/></div>
       <div><ImageList images ={images}/></div>
-      <div><PositionedTooltips /></div>
+      <div> positions<PositionedTooltips /></div>
     </div>
   );
 }
